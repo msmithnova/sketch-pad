@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <title>Odin's Sketch Pad</title>
+</head>
+<body>
+  <div id="header">
+  <h1>Odin's Sketch Pad</h1>
+  <button type="button" id="single-button">Single Color</button>
+  <button type="button" id="multi-button">Multi Color</button>
+  <button type="button" id="gradient-button">Gradient</button>
+  <button type="button" id="num-boxes-button">Num Boxes</button>
+  <button type="button" id="grid-size-button">Grid Size</button>
+ </div>
+ <div id="status">
+  <ul>
+    <li>Mode: <span id="mode">single color</span></li>
+    <li>Blocks: <span id="num-boxes">16x16</span> boxes</li>
+    <li>Grid Size: <span id="grid-size">600x600</span> pixels</li>
+  </ul>
+ </div>
+ <div id="main">
+    <div id="grid">
+    </div>
+ </div>
+ <div id="footer">
+ </div>
+ <script src="js/sketch.js"></script>
+</body>
+</html>

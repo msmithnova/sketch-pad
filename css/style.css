@@ -1,0 +1,37 @@
+#header {
+  background-color: #1F5C99;
+  margin: 0px auto 20px;
+  width: 600px;
+  height: 120px;
+  border-radius: 20px;
+}
+#header h1 {
+  color: white;
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+  margin: 0px;
+}
+button {
+  margin: 11px;
+}
+#status {
+  background-color: gray;
+}
+#status {
+  text-align: center;
+}
+#status li {
+  display: inline-block;
+  margin: 8px;
+  color: white;
+}
+#grid {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  clear: both;
+}
+.gridbox {
+  display: inline-block;
+  border: 1px dotted red;
+}
