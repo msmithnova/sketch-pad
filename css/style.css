@@ -1,23 +1,77 @@
 #header {
-  background-color: #1F5C99;
-  margin: 0px auto 20px;
-  width: 600px;
-  height: 120px;
-  border-radius: 20px;
+  width: 600;
+  margin: auto;
 }
-#header h1 {
+#header-top {
+  background-color: #1F5C99;
+  margin: 0px auto 0px;
+  width: 600px;
+  height: 60px;
+  border-radius: 20px 20px 0px 0px;
+}
+#header-top h1 {
   color: white;
   text-align: center;
   padding: 20px 10px 10px 10px;
   margin: 0px;
 }
+#buttons {
+  display: none;
+  background-color: #1F5C99;
+  margin: 0px auto;
+  width: 585px;
+  height: 100px;
+  padding-left: 15px;
+}
+#header-bottom {
+  background-color: #1F5C99;
+  margin: 0px auto 20px;
+  width: 600px;
+  height: 20px;
+  border-radius: 0px 0px 20px 20px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
 button {
-  margin: 11px;
+  margin: 11px 11px;
+}
+#fill {
+  display: none;
+  background-color: #C7C7C7;
+  width: 605px;
+  height: 315px;
+  margin: 0px auto;
+}
+#fill-radio {
+  width: 400px;
+  margin: 10px auto;
+  border: 1px solid black;
+  text-align: center;
+}
+#color {
+  margin: 10px;
+}
+#fill-images {
+  margin: 10px;
+}
+#fill-images div {
+  display: inline-block;
+}
+#fill-images img {
+  width: auto;
+  height: 100px;
+  margin: 10px 0px 0px 10px;
+}
+.image-selected {
+  border: 2px solid red;
+}
+#submit {
+  float: right;
+  margin-right: 10px;
 }
 #status {
   background-color: gray;
-}
-#status {
   text-align: center;
 }
 #status li {
@@ -30,8 +84,11 @@ button {
   height: 600px;
   margin: auto;
   clear: both;
+  background-repeat: no-repeat;
 }
 .gridbox {
   display: inline-block;
   border: 1px dotted red;
+  background-size: 100% 100%;
+  background-color: white;
 }
